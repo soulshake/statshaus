@@ -10,8 +10,8 @@ import { orderBy } from 'lodash';
 import { useInterval } from './Hooks.js';
 import './App.css';
 
-const username = process.env.USERNAME;
-const password = process.env.PASSWORD;
+const username = process.env.REACT_APP_USERNAME;
+const password = process.env.REACT_APP_PASSWORD;
 
 function App() {
   const [error, setError] = React.useState(null);

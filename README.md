@@ -1,3 +1,25 @@
+# container.training live stats
+
+## Setup
+
+```
+npm install
+export REACT_APP_USERNAME=wooga
+export REACT_APP_PASSWORD=booga
+
+# to run the development server:
+npm run start
+
+# to build/serve the app:
+npm run build
+npm install serve
+serve -s build
+```
+
+
+Note: The rest of this document is boilerplate.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
